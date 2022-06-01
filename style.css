@@ -18,5 +18,14 @@
     position: absolute;
     bottom: 0;
     width: 30px;
-    right: 0;
+    animation: pipe-animation 2s infinite linear;
+}
+
+@keyframes pipe-animation {
+    from {
+        right: -30px;
+    }
+    to {
+        right: 100%;
+    }
 }
