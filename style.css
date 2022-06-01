@@ -17,8 +17,14 @@
 .pipe {
     position: absolute;
     bottom: 0;
-    width: 30px;
+    width: 25px;
     animation: pipe-animation 2s infinite linear;
+}
+
+.mario {
+    position: absolute;
+    height: 60px;
+    bottom: 0;
 }
 
 @keyframes pipe-animation {
